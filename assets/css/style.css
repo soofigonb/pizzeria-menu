@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-image: linear-gradient(to right top, #053712, #2d4700, #625000, #a44900, #ed0a0a);
+}
+
+/*        CSS EN BEBIDAS   */
+#bebidas .card {
+    max-width: 800px;
+    margin: 50px auto 0 auto; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 50px;
+}
+
+.bebida-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent; 
+    margin-bottom: 10px; 
+}
+.form-check-input-bebidas {
+    margin-right: 10px;
+}
+
+.precio-bebida {
+    margin-left: auto;
+}
+
+
+/*        CSS EN COMIDA    */
+#menu .card {
+    max-width: 800px;
+    margin: 0 auto; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 50px;
+}
+
+#menu-lista .list-group-item {
+    display: flex;
+    align-items: flex-start; 
+    padding: 30px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    min-height: 200px;
+}
+
+.item-content {
+    display: flex;
+    flex-direction: column; 
+    margin-right: 130px; 
+    text-align: left;
+}
+
+.item-content img {
+    width: 80px; 
+    border-radius: 50%;
+    position: absolute;
+    right: 15px; 
+    top: 50px; 
+}
+
+.text-content {
+    margin-bottom: 10px;
+}
+
+#menu-lista .list-group-item h5,
+#menu-lista .list-group-item p {
+    margin: 0;
+    margin-top: 5px;
+}
+
+#menu-lista .list-group-item p.descripcion {
+    margin: 5px 0 10px 0;
+}
+
+#menu-lista .list-group-item p.precio {
+    margin-top: 50px; 
+    
+}
+
+
+/*        CSS EN CUENTA    */
+
+#cuenta .card{
+    max-width: 800px;
+    margin: 0 auto; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 50px;
+}
+
+#cuentaTotal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none; 
+    box-shadow: none;
+}
+
+#cuentaTotal > div {
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#cuentaTotal h5, .cuenta-item span {
+    margin: 0 0 10px 0;
+    padding: 0 10px;
+    text-align: center; 
+    width: 50%; 
+}
+
+.cuenta-item {
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+    text-align: left; 
+}
